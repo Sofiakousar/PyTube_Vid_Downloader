@@ -15,10 +15,9 @@ print("YouTuber Name: ", yt.author)
 yd = yt.streams.get_highest_resolution()
 
 # download_path = 'Specified path'
-download_path = 'C:/Users/mohdq/OneDrive/Desktop/YouTube Downloads'
 
 # Add your path while EXECUTING 
-# download_path = argv[2] if len(argv) > 2 else path.join(path.expanduser('~'), 'Downloads')
+download_path = argv[2] if len(argv) > 2 else path.join(path.expanduser('~'), 'Downloads')
 
 print("Downloading to: ",download_path)
 
